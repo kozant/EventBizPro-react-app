@@ -1,0 +1,43 @@
+footer {
+  background: #08101b;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .logo-font {
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+footer .logo-font:hover {
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+footer .logo-font span {
+  color: #e9aa09;
+}
+
+footer .logo-font span:hover {
+  color: #e9aa09;
+}
+
+footer a {
+  color: #e9aa09;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #e9aa09;
+}
+
+footer .attribution {
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: 0.8rem;
+  color: #bbb;
+  font-weight: 300;
+}

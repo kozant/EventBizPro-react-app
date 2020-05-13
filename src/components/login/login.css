@@ -1,0 +1,49 @@
+.auth-page {
+  padding-top: 2rem;
+  background-color: #020412;
+}
+
+.auth-page .text-xs-center {
+  text-align: center;
+  color: #ffffff;
+}
+
+.auth-page .error {
+  color: #b85c5c;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.auth-page .form-control {
+  border-color: #ffffff;
+  background-color: #020412;
+}
+
+.auth-page a {
+  color: #e9aa09;
+}
+
+.auth-page a:hover {
+  color: #e9aa09;
+}
+
+.auth-page .pull-xs-right {
+  float: right;
+}
+.auth-page .btn-lg,
+.btn-group-lg > .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+.auth-page .btn-primary {
+  color: #fff;
+  background-color: #e9aa09;
+  border-color: #e9aa09;
+}
+
+.auth-page .btn-primary:hover {
+  color: #fff;
+  background-color: #c59009;
+  border-color: #c59009;
+}
