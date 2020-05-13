@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eff255d97fac033c3976ba8a2c844930",
+    "revision": "fa778f353cc06c6e49f0d608f4454e69",
     "url": "/EventBizPro-react-app/index.html"
   },
   {
-    "revision": "f6d7bd9cbcddc181873b",
+    "revision": "147242219c95fce49965",
     "url": "/EventBizPro-react-app/static/css/main.34847d0b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EventBizPro-react-app/static/js/2.4975f9db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f6d7bd9cbcddc181873b",
-    "url": "/EventBizPro-react-app/static/js/main.8ba1664c.chunk.js"
+    "revision": "147242219c95fce49965",
+    "url": "/EventBizPro-react-app/static/js/main.8c8f8aa5.chunk.js"
   },
   {
     "revision": "95cb36f0246bf0b999c1",

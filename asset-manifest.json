@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/EventBizPro-react-app/static/css/main.34847d0b.chunk.css",
-    "main.js": "/EventBizPro-react-app/static/js/main.8ba1664c.chunk.js",
-    "main.js.map": "/EventBizPro-react-app/static/js/main.8ba1664c.chunk.js.map",
+    "main.js": "/EventBizPro-react-app/static/js/main.8c8f8aa5.chunk.js",
+    "main.js.map": "/EventBizPro-react-app/static/js/main.8c8f8aa5.chunk.js.map",
     "runtime-main.js": "/EventBizPro-react-app/static/js/runtime-main.0be9c540.js",
     "runtime-main.js.map": "/EventBizPro-react-app/static/js/runtime-main.0be9c540.js.map",
     "static/js/2.4975f9db.chunk.js": "/EventBizPro-react-app/static/js/2.4975f9db.chunk.js",
     "static/js/2.4975f9db.chunk.js.map": "/EventBizPro-react-app/static/js/2.4975f9db.chunk.js.map",
     "index.html": "/EventBizPro-react-app/index.html",
-    "precache-manifest.223bc3ee5d70efb8d2351eda3a151816.js": "/EventBizPro-react-app/precache-manifest.223bc3ee5d70efb8d2351eda3a151816.js",
+    "precache-manifest.c02f708fadece702cec8fdc46152cae1.js": "/EventBizPro-react-app/precache-manifest.c02f708fadece702cec8fdc46152cae1.js",
     "service-worker.js": "/EventBizPro-react-app/service-worker.js",
     "static/css/main.34847d0b.chunk.css.map": "/EventBizPro-react-app/static/css/main.34847d0b.chunk.css.map",
     "static/js/2.4975f9db.chunk.js.LICENSE.txt": "/EventBizPro-react-app/static/js/2.4975f9db.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0be9c540.js",
     "static/js/2.4975f9db.chunk.js",
     "static/css/main.34847d0b.chunk.css",
-    "static/js/main.8ba1664c.chunk.js"
+    "static/js/main.8c8f8aa5.chunk.js"
   ]
 }
