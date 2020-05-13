@@ -12,8 +12,11 @@ class Login extends Component {
   };
 
   componentDidMount() {
-    const { isLogged } = this.props.authInfo.isLogged;
-    this.setState({ isLogged });
+    if (this.props.authInfo.isLogged === null) {
+      this.setState({ isLogged: false });
+    } else {
+      this.setState({ isLogged: this.props.authInfo.isLogged });
+    }
   }
 
   onChangeField = (e) => {
@@ -26,6 +29,7 @@ class Login extends Component {
     const { authInfo } = this.props;
     const { username, password } = this.state;
     if (authInfo.username === username && authInfo.password === password) {
+      this.props.setAuthInfo(username, password, true);
       this.setState({ isLogged: true });
     } else {
       this.setState({ error: "Имя пользователя или пароль введены не верно" });

@@ -12,16 +12,21 @@ import "./app.css";
 
 export default class App extends Component {
   state = {
-    isLogged: localStorage.getItem("isLogged"),
     username: localStorage.getItem("username"),
     password: localStorage.getItem("password"),
+    isLogged: localStorage.getItem("isLogged"),
   };
 
   componentDidMount() {
-    localStorage.setItem("isLogged", "false");
-    localStorage.setItem("username", "admin");
-    localStorage.setItem("password", "12345");
+    this.setAuthInfo("admin", "12345", false);
   }
+
+  setAuthInfo = (username, password, isLogged) => {
+    localStorage.setItem("username", username);
+    localStorage.setItem("password", password);
+    localStorage.setItem("isLogged", isLogged);
+    this.setState({ username, password, isLogged });
+  };
 
   render() {
     const { isLogged } = this.state;
@@ -43,7 +48,9 @@ export default class App extends Component {
             <Route path="/news" component={ArticleList} exact />
             <Route
               path="/login"
-              render={() => <Login authInfo={this.state} />}
+              render={() => (
+                <Login authInfo={this.state} setAuthInfo={this.setAuthInfo} />
+              )}
               exact
             />
             <Route path="/profile" component={ProfilePage} exact />

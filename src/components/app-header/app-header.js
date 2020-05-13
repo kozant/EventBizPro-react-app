@@ -18,7 +18,7 @@ const AppHeader = ({ isLogged }) => {
       </Link>
     </>
   );
-  const profile = isLogged === "false" ? redirectToLogin : redirectToProfile;
+  const profile = isLogged ? redirectToProfile : redirectToLogin;
   return (
     <nav className="app-header navbar">
       <div className="container">
